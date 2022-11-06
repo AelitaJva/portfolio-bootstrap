@@ -9,6 +9,17 @@ body {
   font-size: 14px;
 }
 
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+/* button */
+.btn:hover {
+  color: white;
+}
+
 /* progress */
 .progress {
   height: 60px;
@@ -18,4 +29,20 @@ body {
 
 .progress:hover {
   transform: scale(1.1);
+}
+
+/* card */
+.card {
+  transition: all 0.5s ease;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 1px 2px 10px black;
+}
+
+.card img {
+  height: 100px;
+  widows: 100px;
+  margin: auto;
 }
